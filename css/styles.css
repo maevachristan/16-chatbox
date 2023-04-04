@@ -19,6 +19,7 @@ h1 {
   width: 100%;
   top: 0;
   text-align: left;
+  position: sticky;
 }
 
 .group-members {
