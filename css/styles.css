@@ -11,15 +11,19 @@ img {
 }
 
 h1 {
-  font-size: medium;
-  margin: 0;
-  padding: 12px 0;
+  font-size: 20px;
+  margin: 0 10px 0 0;
+  padding: 10px 0;
   background-color: #212323;
   color: #ffffff;
   width: 100%;
-  position: sticky;
   top: 0;
-  text-align: center;
+  text-align: left;
+}
+
+.group-members {
+  color: #929292;
+  font-size: 8px;
 }
 
 .add-delete {
@@ -80,7 +84,7 @@ h1 {
 }
 
 .message-box {
-  width: 75%;
+  width: 65%;
   font-size: smaller;
   margin: 0 25px 10px;
   color: #ffffff;
