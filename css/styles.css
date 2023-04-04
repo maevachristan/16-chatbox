@@ -13,6 +13,7 @@ img {
 h1 {
   font-size: medium;
   margin: 0;
+  padding: 12px 0;
   background-color: #212323;
   color: #ffffff;
   width: 100%;
@@ -25,7 +26,7 @@ h1 {
   background-color: #212323;
   color: #929292;
   font-size: 11px;
-  margin-top: 25px;
+  margin: 15px 0 5px;
   padding: 7px 10px;
   border-radius: 5px;
   align-self: center;
@@ -36,6 +37,7 @@ h1 {
   color: #929292;
   text-transform: uppercase;
   font-size: small;
+  margin: 15px 0 5px;
   padding: 7px 10px;
   border-radius: 5px;
   align-self: center;
@@ -78,9 +80,9 @@ h1 {
 }
 
 .message-box {
-  margin-bottom: 10px;
   width: 75%;
-  margin: 0 25px 25px;
+  font-size: smaller;
+  margin: 0 25px 10px;
   color: #ffffff;
 }
 
@@ -99,19 +101,6 @@ h1 {
   background-color: #0b301c;
   padding: 10px;
   border-radius: 10px 0 10px 10px;
-}
-
-.message-box-luke {
-  align-self: flex-end;
-  text-align: right;
-}
-
-.message-box-yoda .message-content {
-  background: green;
-}
-
-.message-box-hansolo .message-content {
-  background: red;
 }
 
 .chat-form {
