@@ -8,3 +8,96 @@ img {
   display: block;
   max-width: 100%;
 }
+
+h1 {
+  text-transform: uppercase;
+}
+
+.add-delete {
+  background-color: #212323;
+  color: #929292;
+  font-size: 11px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.to-read {
+  background-color: #212323;
+  color: #929292;
+  text-transform: uppercase;
+  padding: 7px 10px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+body {
+  font-family: helvetica;  
+}
+
+.chat-container {
+  max-width: 300px;
+  margin: auto;
+  border: 1px solid black;
+  box-shadow: 0 0 5px #3333;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.message-box {
+  margin-bottom: 10px;
+  width: 75%;
+  margin: 0 25px 25px;
+}
+
+.message-box .message-content {
+  background-color: #212323;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+
+
+.message-author {
+  margin: 5px 0 0 0;
+}
+
+.message-box-sabrina .message-content {
+  background: #33f;
+  padding: 10px;
+}
+
+.message-box-luke {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.message-box-yoda .message-content {
+  background: green;
+}
+
+.message-box-hansolo .message-content {
+  background: red;
+}
+
+h1 {
+  margin: 0;
+  background: #eee;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+.chat-form {
+  background: #333;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
