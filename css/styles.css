@@ -2,6 +2,7 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  font-family: helvetica;
 }
 
 img {
@@ -10,13 +11,21 @@ img {
 }
 
 h1 {
-  text-transform: uppercase;
+  font-size: medium;
+  margin: 0;
+  background-color: #212323;
+  color: #ffffff;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  text-align: center;
 }
 
 .add-delete {
   background-color: #212323;
   color: #929292;
   font-size: 11px;
+  margin-top: 25px;
   padding: 7px 10px;
   border-radius: 5px;
   align-self: center;
@@ -26,13 +35,10 @@ h1 {
   background-color: #212323;
   color: #929292;
   text-transform: uppercase;
+  font-size: small;
   padding: 7px 10px;
   border-radius: 5px;
   align-self: center;
-}
-
-body {
-  font-family: helvetica;  
 }
 
 .chat-container {
@@ -47,10 +53,35 @@ body {
   align-items: flex-start;
 }
 
+.message-author {
+  font-size: small;
+}
+
+.author-sabrina {
+  color: #be4994;
+}
+
+.author-simon {
+  color: #4a93bc;
+}
+
+.author-augustin {
+  color: #ffe12d;
+}
+
+.author-diego {
+  color: #70b62e;
+}
+
+.author-jonas {
+  color: #ee731e;
+}
+
 .message-box {
   margin-bottom: 10px;
   width: 75%;
   margin: 0 25px 25px;
+  color: #ffffff;
 }
 
 .message-box .message-content {
@@ -58,11 +89,6 @@ body {
   padding: 10px;
   border-radius: 0 10px 10px 10px;
   margin-bottom: 0;
-}
-
-
-.message-author {
-  margin: 5px 0 0 0;
 }
 
 .message-box-camille {
@@ -86,15 +112,6 @@ body {
 
 .message-box-hansolo .message-content {
   background: red;
-}
-
-h1 {
-  margin: 0;
-  background: #eee;
-  width: 100%;
-  position: sticky;
-  top: 0;
-  text-align: center;
 }
 
 .chat-form {
